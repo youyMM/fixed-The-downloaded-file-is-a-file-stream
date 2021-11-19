@@ -22,7 +22,7 @@ axios.interceptors.response.use(
       config: { url, method, data }
     } = response;
     let filterUrl = [
-      "下载文件流的url",
+      "/testdownload/AllList",
     ];
     if (filterUrl.includes(url)) {
       return response;
